@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    color: #e8eaed;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shizuru', cursive;
+}
+
+.wrapper {
+    display: block;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #3c4043;
+    padding: 8px;
+}
+
+.box-wrapper {
+    padding: 25px;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+#number {}
+
+#result {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+.wrapper {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 220px;
+}
+
+.tools-position {
+    position: relative;
+    border: 3px solid red;
+    width: 420px;
+    left: 520px;
+    height: 100%;
+}
+
+#submit {
+    border-radius: 15px;
+    padding: 5px;
+}

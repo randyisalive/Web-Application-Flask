@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    {% if code %}
+    <h2>Hypotenusa</h2>
+    <h2>{{ code }}</h2>
+    {% endif %} {% if y %}
+    <h2>Square Root</h2>
+    <h2>{{ y }}</h2>
+    {% endif %} {% if convert %}
+    <h2>GPA Converter</h2>
+    <h2>{{ convert }}</h2>
+    {% endif %}
+    <a href="{{ url_for('index')}}" style="text-decoration: none;">
+        <h2>Home</h2>
+    </a>
+</body>
+
+</html>
